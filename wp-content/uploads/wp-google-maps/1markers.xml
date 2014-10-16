@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>santa cruz, ca</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>36.9741171</lat>
+    <lng>-122.03079630000002</lng>
+    <anim>2</anim>
+    <category></category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>
