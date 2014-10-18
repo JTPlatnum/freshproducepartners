@@ -505,7 +505,7 @@ function interface_featured_sliders() {
 				$interface_featured_sliders .= '
 				<div class="'.$classes.'">';
 						if( has_post_thumbnail() ) {
-	$interface_featured_sliders .= '<figure><a href="' . get_permalink() . '" title="'.the_title('','',false).'">';
+	// $interface_featured_sliders .= '<figure><a href="' . get_permalink() . '" title="'.the_title('','',false).'">';
 	$interface_featured_sliders .= get_the_post_thumbnail( $post->ID, $slider_size, array( 'title' => esc_attr( $title_attribute ), 'alt' => esc_attr( $title_attribute ), 'class'	=> 'pngfix' ) ).'</a></figure>';
 						}
 						if( $title_attribute != '' || $excerpt !='' ) {
